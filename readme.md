@@ -1,6 +1,7 @@
 # Browser compatible:
 
-- Edge ( microsoft ) only
+- Edge ( microsoft )
+- Chrome (google)
 
 # It's just a litle test of Chatbot
 
