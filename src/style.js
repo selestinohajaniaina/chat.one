@@ -72,7 +72,8 @@ fenetre.appendChild(botTom);
 //input text
 let input = window.document.createElement("input");
 input.id = "input";
-input.placeholder='or enter to send...'
+input.setAttribute("autoFocus", "");
+input.placeholder = "or enter to send...";
 input.style.borderRadius = "100px";
 input.style.height = "50%";
 input.style.width = "80%";

@@ -1,7 +1,7 @@
 //get text of input and point into variable
 var userText;
 //
-function addSend(){
+function addSend() {
   if (userText != "") {
     //
     //created a random
@@ -48,16 +48,16 @@ function addSend(){
 // body.scrollTop = body.scrollHeight;
 input.onkeypress = (e) => {
   if (e.code == "Enter") {
-    if(input.value!=""){
+    if (input.value != "") {
       addSend();
     }
   }
 };
-spanSend.onclick=()=>{
-  if(input.value!=""){
+spanSend.onclick = () => {
+  if (input.value != "") {
     addSend();
   }
-}
+};
 
 //function to insert message in body
 function insert(textMessage) {

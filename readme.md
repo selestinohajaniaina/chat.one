@@ -1,7 +1,8 @@
-# Browser compatible:
+# Build with:
 
-- Edge ( microsoft )
-- Chrome (google)
+- Javascript (vanilla)
+- HTML, CSS
+- Axios
 
 # It's just a litle test of Chatbot
 
